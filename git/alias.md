@@ -20,8 +20,9 @@
     fetchallp = fetch --all --prune
     lll = log --graph --topo-order --date=iso8601-strict --no-abbrev-commit --abbrev=40 --decorate --all --boundary --pretty=format:'%Cgreen%ad %Cred%h%Creset -%C(yellow)%d%Creset %s %Cblue[%cn <%ce>]%Creset %Cblue%G?%Creset'
 ```
+N.B. to copy in .gitconfig in user home
 
-## List of Linuc-git aliases
+## List of Linux-git aliases
 
 ```
 alias gst='git status'
